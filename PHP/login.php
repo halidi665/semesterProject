@@ -31,11 +31,12 @@
         
         if($code == 'admin') {
             $_SESSION['godmodeOn'] = true;
-            header("Location: ../admin.php");
+            $_SESSION['user'] = 'Admin';
+            header("Location: ../admin.php?login=true");
         }
         else {
             $_SESSION['godmodeOn'] = false;
-            header("Location: ".$code.".php");
+            header("Location: ".$code.".php?login=true");
         }
         
         

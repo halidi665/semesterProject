@@ -10,7 +10,10 @@
     
     // save input values from form
     $projectId = $_POST['projectID'];
-    $projectId = str_replace(' ', '_', $projectId);
+    
+    //prepare Project ID for file names: lower case only, replace space with underscore
+    // the unaltered $_POST projectID variable will be used as gallery as h1 project headline
+    $projectId = strtolower(str_replace(' ', '_', $projectId)) ;
 
 
     $password = $_POST['password'];
@@ -50,12 +53,6 @@
         echo "<p class='alert-info'>".$count." files successfully uploaded!</p>";    
         createGalleryPage();
         
-        echo "<a class='btn' href='../admin.php'>go back</a>";
-    
+        echo "<a class='btn' href='../admin.php'>go back</a>";    
     }
-    
-
-    
-    //header('Location: admin.php?".$count"');
-
 ?>

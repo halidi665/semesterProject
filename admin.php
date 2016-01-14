@@ -21,11 +21,14 @@
 
 </head>
 <body>
+    <?php
+        if($_GET['login'] == true) {
+    ?>
     
     <div id="mainContainer" class="container">
     <?php
-        $projectID = $_POST['code'];
-        echo "<h2>Hello ".$projectID."</h2>";
+        
+        echo "<h2>Hello ".$_SESSION['user']."</h2>";
     ?>
     
     <form method="post" action="PHP/action.php" enctype="multipart/form-data">
@@ -45,5 +48,14 @@
     </form>
     
     </div>
+    
+    <?php
+        } else {
+    ?>
+        <p class='alert-danger'>Login failed!</p>
+        <a class='btn' href='private.php'>Try again</a>
+    <?php
+        }
+    ?>
 </body>
 </html>
