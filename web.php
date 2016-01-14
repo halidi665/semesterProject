@@ -12,7 +12,8 @@
         createHtmlHead();
     ?>  
 
-
+    <!-- JQuery UI CSS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
     
 </head>
@@ -131,9 +132,7 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 
     <script type="text/javascript" src="JS/script.js"></script>
     
-    <!-- JQuery UI CSS -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link type="text/css" href="jquery-ui/jquery-ui_accessibilityenhancements/demo.css">
+    
     
 </body>
 </html>
