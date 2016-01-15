@@ -19,17 +19,17 @@
                         
                         
                     <ul class="navbar-nav">
-                        <li class="navbar-brand">
+                        <li class="navbar-brand" tab-index="0">
                             <a href="index.php">
                                 <!-- ADRESSE ÄNDERN!!! -->
                                 <img alt="LiHa" width="25" height="25" src="../semesterprojekt/img/logo.png">
                             </a>
                         </li>
-                        <li><a href='about.php'>ABOUT</a></li>
-                        <li><a href='web.php'>WEB DESIGN</a></li>
-                        <li><a href='photography.php'>PHOTOGRAPHY</a></li>
-                        <li><a href='otherprojects.php'>OTHER PROJECTS</a></li>
-                        <li><a href='private.php'>LOGIN</a></li>
+                        <li tab-index="0"><a href='about.php'>ABOUT</a></li>
+                        <li tab-index="0"><a href='web.php'>WEB DESIGN</a></li>
+                        <li tab-index="0"><a href='photography.php'>PHOTOGRAPHY</a></li>
+                        <li tab-index="0"><a href='otherprojects.php'>OTHER PROJECTS</a></li>
+                        <li tab-index="0"><a href='private.php'>LOGIN</a></li>
                     </ul>
                 </nav>
                     
@@ -70,7 +70,7 @@
 
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Londrina+Sketch|Advent+Pro:200,400' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
