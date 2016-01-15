@@ -112,7 +112,8 @@ span {
   border-radius: 0px;
   background-image: url(../img/bg-regularnav.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .navbar-brand {
   height: auto;
@@ -276,6 +277,7 @@ header .container .navbar-collapse.collapse.in {
   background-image: url(../img/bg-home.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0 0 1.5em;
   padding: 0;
   width: 100%;
